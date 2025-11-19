@@ -1,0 +1,14 @@
+*.log
+.DS_Store
+
+# Ignore log files and directory
+logs/
+
+# Ignore build artifacts
+/bin/
+
+# Ignore save files (user-generated data)
+saves/
+*.save
+*.sav
+*.exe
