@@ -1,0 +1,1004 @@
+{
+  "starting_attributes": {
+    "STR": 5,
+    "CON": 5,
+    "DEX": 5,
+    "INT": 5,
+    "WIS": 5,
+    "CHA": 5
+  },
+  "questions": [
+    {
+      "year": 3,
+      "question": "As a toddler, what early behavior begins shaping your abilities?",
+      "answers_pool": [
+        {
+          "id": "Y3-A1",
+          "description": "You lift wooden toys repeatedly, copying adults.",
+          "attribute_rewards": { "STR": 1, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 },
+          "test_attribute": "STR",
+          "dc": 5,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y3-A2",
+          "description": "You quietly watch people and learn small gestures.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 1, "CHA": 0 },
+          "test_attribute": "WIS",
+          "dc": 6,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y3-A3",
+          "description": "You babble and mimic sounds, charming caretakers.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 1 },
+          "test_attribute": "CHA",
+          "dc": 6,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y3-A4",
+          "description": "You scramble after small animals, learning quick feet.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 1, "INT": 0, "WIS": 0, "CHA": 0 },
+          "test_attribute": "DEX",
+          "dc": 6,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y3-A5",
+          "description": "You get fevers and recover stubbornly, building resilience.",
+          "attribute_rewards": { "STR": 0, "CON": 1, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 },
+          "test_attribute": "CON",
+          "dc": 7,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y3-A6",
+          "description": "You puzzle over shapes and try to fit blocks together.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 0, "INT": 1, "WIS": 0, "CHA": 0 },
+          "test_attribute": "INT",
+          "dc": 7,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y3-A7",
+          "description": "You mimic older children's games and pick up rules quickly.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 0, "INT": 1, "WIS": 0, "CHA": 0 },
+          "test_attribute": "INT",
+          "dc": 8,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "question": "Your playtime reveals early talents. How do you spend your days?",
+      "answers_pool": [
+        {
+          "id": "Y4-A1",
+          "description": "You climb fences and trees, testing your strength.",
+          "attribute_rewards": { "STR": 1, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 },
+          "test_attribute": "STR",
+          "dc": 6,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y4-A2",
+          "description": "You chase animals and learn nimble footwork.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 1, "INT": 0, "WIS": 0, "CHA": 0 },
+          "test_attribute": "DEX",
+          "dc": 7,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y4-A3",
+          "description": "You invent stories and perform them loudly for neighbors.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 1 },
+          "test_attribute": "CHA",
+          "dc": 7,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y4-A4",
+          "description": "You sort stones and shells with keen attention.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 0, "INT": 1, "WIS": 0, "CHA": 0 },
+          "test_attribute": "INT",
+          "dc": 7,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y4-A5",
+          "description": "You carefully watch adults' moods and react appropriately.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 1, "CHA": 0 },
+          "test_attribute": "WIS",
+          "dc": 6,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y4-A6",
+          "description": "You roughhouse and shrug off bumps without tears.",
+          "attribute_rewards": { "STR": 0, "CON": 1, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 },
+          "test_attribute": "CON",
+          "dc": 7,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y4-A7",
+          "description": "You copy adults' small tasks and learn to mimic skillful hands.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 1, "INT": 0, "WIS": 0, "CHA": 0 },
+          "test_attribute": "DEX",
+          "dc": 8,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        }
+      ]
+    },
+    {
+      "year": 5,
+      "question": "Your parents begin assigning small chores. How do you respond?",
+      "answers_pool": [
+        {
+          "id": "Y5-A1",
+          "description": "You chop soft roots with a small wooden tool.",
+          "attribute_rewards": { "STR": 1, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 },
+          "test_attribute": "STR",
+          "dc": 7,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y5-A2",
+          "description": "You fetch water and learn to carry without spilling.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 1, "INT": 0, "WIS": 0, "CHA": 0 },
+          "test_attribute": "DEX",
+          "dc": 8,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y5-A3",
+          "description": "You help gather herbs and learn to identify them.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 1, "CHA": 0 },
+          "test_attribute": "WIS",
+          "dc": 7,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y5-A4",
+          "description": "You count livestock and grain, getting good with numbers.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 0, "INT": 1, "WIS": 0, "CHA": 0 },
+          "test_attribute": "INT",
+          "dc": 8,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y5-A5",
+          "description": "You tell simple tales to younger children, learning presence.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 1 },
+          "test_attribute": "CHA",
+          "dc": 8,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y5-A6",
+          "description": "You carry small sacks and improve endurance.",
+          "attribute_rewards": { "STR": 0, "CON": 1, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 },
+          "test_attribute": "CON",
+          "dc": 7,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y5-A7",
+          "description": "You help fold cloth and learn careful hands.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 1, "INT": 0, "WIS": 0, "CHA": 0 },
+          "test_attribute": "DEX",
+          "dc": 8,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        }
+      ]
+    },
+    {
+      "year": 6,
+      "question": "You face your first disagreements with other kids. How do you handle it?",
+      "answers_pool": [
+        {
+          "id": "Y6-A1",
+          "description": "You stand your ground and refuse to be pushed around.",
+          "attribute_rewards": { "STR": 1, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 },
+          "test_attribute": "STR",
+          "dc": 8,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y6-A2",
+          "description": "You dodge thrown mud and learn agile reactions.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 1, "INT": 0, "WIS": 0, "CHA": 0 },
+          "test_attribute": "DEX",
+          "dc": 8,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y6-A3",
+          "description": "You talk your way out of a scrape with clever words.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 1 },
+          "test_attribute": "CHA",
+          "dc": 9,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y6-A4",
+          "description": "You remember a trick that helps you slip away safely.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 0, "INT": 1, "WIS": 0, "CHA": 0 },
+          "test_attribute": "INT",
+          "dc": 9,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y6-A5",
+          "description": "You let a quarrel pass, learning to read moods.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 1, "CHA": 0 },
+          "test_attribute": "WIS",
+          "dc": 8,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y6-A6",
+          "description": "You take a hit in the scuffle and learn to endure pain.",
+          "attribute_rewards": { "STR": 0, "CON": 1, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 },
+          "test_attribute": "CON",
+          "dc": 8,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y6-A7",
+          "description": "You try a clever bluff that impresses other kids.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 0, "INT": 1, "WIS": 0, "CHA": 1 },
+          "test_attribute": "CHA",
+          "dc": 10,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        }
+      ]
+    },
+    {
+      "year": 7,
+      "question": "A local adult teaches you something valuable. What do you learn?",
+      "answers_pool": [
+        {
+          "id": "Y7-A1",
+          "description": "A woodcutter shows you proper lifting and stance.",
+          "attribute_rewards": { "STR": 1, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 },
+          "test_attribute": "STR",
+          "dc": 9,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y7-A2",
+          "description": "A hunter teaches you how to move without making noise.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 1, "INT": 0, "WIS": 0, "CHA": 0 },
+          "test_attribute": "DEX",
+          "dc": 9,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y7-A3",
+          "description": "A priest shows you a simple chant and its meaning.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 1, "CHA": 0 },
+          "test_attribute": "WIS",
+          "dc": 10,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y7-A4",
+          "description": "A scholar shows you letters and simple runes.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 0, "INT": 1, "WIS": 0, "CHA": 0 },
+          "test_attribute": "INT",
+          "dc": 10,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y7-A5",
+          "description": "A merchant teaches polite greetings and bargaining basics.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 1 },
+          "test_attribute": "CHA",
+          "dc": 9,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y7-A6",
+          "description": "A farmer teaches efficient ways to balance loads.",
+          "attribute_rewards": { "STR": 0, "CON": 1, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 },
+          "test_attribute": "CON",
+          "dc": 9,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y7-A7",
+          "description": "You apprentice briefly at a craftsman's bench, learning steady hands.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 1, "INT": 0, "WIS": 0, "CHA": 0 },
+          "test_attribute": "DEX",
+          "dc": 10,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        }
+      ]
+    },
+    {
+      "year": 8,
+      "question": "Your body grows stronger and more coordinated. What challenge do you face?",
+      "answers_pool": [
+        {
+          "id": "Y8-A1",
+          "description": "You try lifting a heavier tool to impress adults.",
+          "attribute_rewards": { "STR": 2, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 },
+          "test_attribute": "STR",
+          "dc": 12,
+          "fail_penalty": { "STR": -1, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y8-A2",
+          "description": "You run footraces against older children.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 1, "INT": 0, "WIS": 0, "CHA": 0 },
+          "test_attribute": "DEX",
+          "dc": 10,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y8-A3",
+          "description": "You endure a fever and learn to recover stronger.",
+          "attribute_rewards": { "STR": 0, "CON": 1, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 },
+          "test_attribute": "CON",
+          "dc": 11,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y8-A4",
+          "description": "You practice balancing on logs and ledges.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 1, "INT": 0, "WIS": 0, "CHA": 0 },
+          "test_attribute": "DEX",
+          "dc": 10,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": -1, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y8-A5",
+          "description": "You memorize rhymes and simple lessons rapidly.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 0, "INT": 1, "WIS": 0, "CHA": 0 },
+          "test_attribute": "INT",
+          "dc": 11,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y8-A6",
+          "description": "You practice speaking up for yourself in small ways.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 1 },
+          "test_attribute": "CHA",
+          "dc": 10,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y8-A7",
+          "description": "You quietly watch elders and learn how the village runs.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 1, "CHA": 0 },
+          "test_attribute": "WIS",
+          "dc": 10,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        }
+      ]
+    },
+    {
+      "year": 9,
+      "question": "You begin learning practical tasks. What do you take to heart?",
+      "answers_pool": [
+        {
+          "id": "Y9-A1",
+          "description": "You practice swinging a wooden sword with care.",
+          "attribute_rewards": { "STR": 1, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 },
+          "test_attribute": "STR",
+          "dc": 11,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y9-A2",
+          "description": "You practice pebble-throwing at targets, honing aim.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 1, "INT": 0, "WIS": 0, "CHA": 0 },
+          "test_attribute": "DEX",
+          "dc": 11,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y9-A3",
+          "description": "You study simple maps and the lay of the land.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 0, "INT": 1, "WIS": 0, "CHA": 0 },
+          "test_attribute": "INT",
+          "dc": 12,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y9-A4",
+          "description": "You track animals with elders and learn to read trails.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 1, "CHA": 0 },
+          "test_attribute": "WIS",
+          "dc": 11,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y9-A5",
+          "description": "You charm adults with polite practice and small plays.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 1 },
+          "test_attribute": "CHA",
+          "dc": 11,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y9-A6",
+          "description": "You labor carrying water and chores for long stretches.",
+          "attribute_rewards": { "STR": 0, "CON": 1, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 },
+          "test_attribute": "CON",
+          "dc": 11,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y9-A7",
+          "description": "You learn to repair small tools with careful attention.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 1, "INT": 1, "WIS": 0, "CHA": 0 },
+          "test_attribute": "INT",
+          "dc": 13,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": -1, "INT": 0, "WIS": 0, "CHA": 0 }
+        }
+      ]
+    },
+    {
+      "year": 10,
+      "question": "A personal challenge tests your limits. What do you attempt?",
+      "answers_pool": [
+        {
+          "id": "Y10-A1",
+          "description": "You climb a tall tree to retrieve a lost item.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 1, "INT": 0, "WIS": 0, "CHA": 0 },
+          "test_attribute": "DEX",
+          "dc": 12,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": -1, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y10-A2",
+          "description": "You carry an injured animal or person to safety.",
+          "attribute_rewards": { "STR": 1, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 },
+          "test_attribute": "STR",
+          "dc": 12,
+          "fail_penalty": { "STR": 0, "CON": -1, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y10-A3",
+          "description": "An elder gives you a riddle that challenges your mind.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 0, "INT": 1, "WIS": 0, "CHA": 0 },
+          "test_attribute": "INT",
+          "dc": 13,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y10-A4",
+          "description": "You help treat a minor wound, learning care.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 1, "CHA": 0 },
+          "test_attribute": "WIS",
+          "dc": 12,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y10-A5",
+          "description": "You defend a friend with a bold speech.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 1 },
+          "test_attribute": "CHA",
+          "dc": 12,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y10-A6",
+          "description": "You endure a day of heavy weather, learning to last.",
+          "attribute_rewards": { "STR": 0, "CON": 1, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 },
+          "test_attribute": "CON",
+          "dc": 12,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y10-A7",
+          "description": "You attempt a tricky hand movement that requires coordination.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 1, "INT": 1, "WIS": 0, "CHA": 0 },
+          "test_attribute": "DEX",
+          "dc": 13,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": -1, "INT": 0, "WIS": 0, "CHA": 0 }
+        }
+      ]
+    },
+    {
+      "year": 11,
+      "question": "Your world widens and you interact more beyond family. What matters?",
+      "answers_pool": [
+        {
+          "id": "Y11-A1",
+          "description": "You help at the smith's bellows and gain physical strength.",
+          "attribute_rewards": { "STR": 1, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 },
+          "test_attribute": "STR",
+          "dc": 12,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y11-A2",
+          "description": "You run errands swiftly between houses.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 1, "INT": 0, "WIS": 0, "CHA": 0 },
+          "test_attribute": "DEX",
+          "dc": 13,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y11-A3",
+          "description": "A traveling scholar shares knowledge that sparks curiosity.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 0, "INT": 1, "WIS": 0, "CHA": 0 },
+          "test_attribute": "INT",
+          "dc": 14,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y11-A4",
+          "description": "You watch merchants bargain and learn persuasion cues.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 1 },
+          "test_attribute": "CHA",
+          "dc": 13,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y11-A5",
+          "description": "You gather medicinal herbs with care.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 1, "CHA": 0 },
+          "test_attribute": "WIS",
+          "dc": 12,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y11-A6",
+          "description": "You help labor for many hours, building endurance.",
+          "attribute_rewards": { "STR": 0, "CON": 1, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 },
+          "test_attribute": "CON",
+          "dc": 12,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y11-A7",
+          "description": "You attempt complex knots and fastenings, gaining dexterity and smarts.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 1, "INT": 1, "WIS": 0, "CHA": 0 },
+          "test_attribute": "INT",
+          "dc": 14,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": -1, "INT": 0, "WIS": 0, "CHA": 0 }
+        }
+      ]
+    },
+    {
+      "year": 12,
+      "question": "Adolescence brings bigger tests. What do you push toward?",
+      "answers_pool": [
+        {
+          "id": "Y12-A1",
+          "description": "You throw heavy stones to impress peers.",
+          "attribute_rewards": { "STR": 2, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 },
+          "test_attribute": "STR",
+          "dc": 14,
+          "fail_penalty": { "STR": -1, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y12-A2",
+          "description": "You practice archery with makeshift bows.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 1, "INT": 0, "WIS": 0, "CHA": 0 },
+          "test_attribute": "DEX",
+          "dc": 13,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y12-A3",
+          "description": "You read the village chronicles and soak up history.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 0, "INT": 1, "WIS": 0, "CHA": 0 },
+          "test_attribute": "INT",
+          "dc": 14,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y12-A4",
+          "description": "You mediate between quarreling friends and learn tact.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 1 },
+          "test_attribute": "CHA",
+          "dc": 13,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y12-A5",
+          "description": "You spend nights reflecting on choices and consequences.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 1, "CHA": 0 },
+          "test_attribute": "WIS",
+          "dc": 13,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y12-A6",
+          "description": "You take on more farm labor and build toughness.",
+          "attribute_rewards": { "STR": 0, "CON": 1, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 },
+          "test_attribute": "CON",
+          "dc": 13,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y12-A7",
+          "description": "You tinker with a mechanical small device, gaining smarts and steady hands.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 1, "INT": 1, "WIS": 0, "CHA": 0 },
+          "test_attribute": "INT",
+          "dc": 15,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": -1, "INT": 0, "WIS": 0, "CHA": 0 }
+        }
+      ]
+    },
+    {
+      "year": 13,
+      "question": "You start making independent choices. Which path do you try?",
+      "answers_pool": [
+        {
+          "id": "Y13-A1",
+          "description": "You take up self-guided strength training.",
+          "attribute_rewards": { "STR": 1, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 },
+          "test_attribute": "STR",
+          "dc": 14,
+          "fail_penalty": { "STR": 0, "CON": -1, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y13-A2",
+          "description": "You build an obstacle circuit to improve agility.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 1, "INT": 0, "WIS": 0, "CHA": 0 },
+          "test_attribute": "DEX",
+          "dc": 14,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": -1, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y13-A3",
+          "description": "You read any book you can borrow, expanding your mind.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 0, "INT": 1, "WIS": 0, "CHA": 0 },
+          "test_attribute": "INT",
+          "dc": 15,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y13-A4",
+          "description": "You volunteer to lead a small community task.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 1 },
+          "test_attribute": "CHA",
+          "dc": 14,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y13-A5",
+          "description": "You learn herbal remedies from a local healer.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 1, "CHA": 0 },
+          "test_attribute": "WIS",
+          "dc": 14,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y13-A6",
+          "description": "You push through long, tiring chores and toughen up.",
+          "attribute_rewards": { "STR": 0, "CON": 1, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 },
+          "test_attribute": "CON",
+          "dc": 14,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y13-A7",
+          "description": "You apprentice briefly with a craftsman and learn fine technique.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 1, "INT": 1, "WIS": 0, "CHA": 0 },
+          "test_attribute": "INT",
+          "dc": 15,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": -1, "INT": 0, "WIS": 0, "CHA": 0 }
+        }
+      ]
+    },
+    {
+      "year": 14,
+      "question": "Specialization begins. Which skill do you pursue seriously?",
+      "answers_pool": [
+        {
+          "id": "Y14-A1",
+          "description": "You undertake advanced physical training and conditioning.",
+          "attribute_rewards": { "STR": 2, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 },
+          "test_attribute": "STR",
+          "dc": 16,
+          "fail_penalty": { "STR": 0, "CON": -1, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y14-A2",
+          "description": "You learn hunting techniques that rely on precision.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 1, "INT": 0, "WIS": 1, "CHA": 0 },
+          "test_attribute": "DEX",
+          "dc": 15,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": -1, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y14-A3",
+          "description": "You study foreign stories and advanced lore.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 0, "INT": 1, "WIS": 0, "CHA": 0 },
+          "test_attribute": "INT",
+          "dc": 16,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y14-A4",
+          "description": "You practice mediating arguments among older villagers.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 1 },
+          "test_attribute": "CHA",
+          "dc": 15,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y14-A5",
+          "description": "You assist a midwife/healer and learn practical wisdom.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 1, "CHA": 0 },
+          "test_attribute": "WIS",
+          "dc": 15,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y14-A6",
+          "description": "You craft heavy goods and strengthen your constitution.",
+          "attribute_rewards": { "STR": 0, "CON": 1, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 },
+          "test_attribute": "CON",
+          "dc": 15,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y14-A7",
+          "description": "You attempt an ambitious physical feat that tests strength and endurance.",
+          "attribute_rewards": { "STR": 1, "CON": 1, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 },
+          "test_attribute": "STR",
+          "dc": 16,
+          "fail_penalty": { "STR": 0, "CON": -1, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        }
+      ]
+    },
+    {
+      "year": 15,
+      "question": "You take on real responsibilities. Which do you accept?",
+      "answers_pool": [
+        {
+          "id": "Y15-A1",
+          "description": "You move heavy materials across long distances.",
+          "attribute_rewards": { "STR": 1, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 },
+          "test_attribute": "STR",
+          "dc": 15,
+          "fail_penalty": { "STR": 0, "CON": -1, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y15-A2",
+          "description": "You practice hitting distant targets with consistent repetition.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 1, "INT": 0, "WIS": 0, "CHA": 0 },
+          "test_attribute": "DEX",
+          "dc": 16,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": -1, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y15-A3",
+          "description": "You keep accounts and track trade, gaining intellect for detail.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 0, "INT": 1, "WIS": 0, "CHA": 0 },
+          "test_attribute": "INT",
+          "dc": 16,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y15-A4",
+          "description": "You negotiate small trades and learn persuasion's weight.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 1 },
+          "test_attribute": "CHA",
+          "dc": 15,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y15-A5",
+          "description": "You read weather and signs to help farmers plan.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 1, "CHA": 0 },
+          "test_attribute": "WIS",
+          "dc": 15,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y15-A6",
+          "description": "You endure long harvests and hard labor, gaining constitution.",
+          "attribute_rewards": { "STR": 0, "CON": 1, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 },
+          "test_attribute": "CON",
+          "dc": 15,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y15-A7",
+          "description": "You build a small tool or prototype, increasing intellect and dexterity.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 1, "INT": 1, "WIS": 0, "CHA": 0 },
+          "test_attribute": "INT",
+          "dc": 16,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": -1, "INT": 0, "WIS": 0, "CHA": 0 }
+        }
+      ]
+    },
+    {
+      "year": 16,
+      "question": "You transition to adulthood. What skill do you refine?",
+      "answers_pool": [
+        {
+          "id": "Y16-A1",
+          "description": "You test your limits with heavy lifting and conditioning.",
+          "attribute_rewards": { "STR": 2, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 },
+          "test_attribute": "STR",
+          "dc": 17,
+          "fail_penalty": { "STR": -1, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y16-A2",
+          "description": "You train stealth and precision for hunting or scouting.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 1, "INT": 0, "WIS": 1, "CHA": 0 },
+          "test_attribute": "DEX",
+          "dc": 16,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": -1, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y16-A3",
+          "description": "You study complex scrolls or advanced techniques.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 0, "INT": 1, "WIS": 0, "CHA": 0 },
+          "test_attribute": "INT",
+          "dc": 17,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": -1, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y16-A4",
+          "description": "You take responsibility in village diplomacy or leadership.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 1 },
+          "test_attribute": "CHA",
+          "dc": 16,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y16-A5",
+          "description": "You guide younger children and learn patience and insight.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 1, "CHA": 0 },
+          "test_attribute": "WIS",
+          "dc": 16,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y16-A6",
+          "description": "You undertake a long journey to test endurance and resolve.",
+          "attribute_rewards": { "STR": 0, "CON": 1, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 },
+          "test_attribute": "CON",
+          "dc": 16,
+          "fail_penalty": { "STR": 0, "CON": -1, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y16-A7",
+          "description": "You push a risky but high-reward training that combines strength and skill.",
+          "attribute_rewards": { "STR": 1, "DEX": 1, "CON": 0, "INT": 0, "WIS": 0, "CHA": 0 },
+          "test_attribute": "STR",
+          "dc": 17,
+          "fail_penalty": { "STR": -1, "DEX": -1, "CON": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        }
+      ]
+    },
+    {
+      "year": 17,
+      "question": "A defining event shapes you. What do you do?",
+      "answers_pool": [
+        {
+          "id": "Y17-A1",
+          "description": "You save someone from danger through strength and grit.",
+          "attribute_rewards": { "STR": 1, "CON": 1, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 },
+          "test_attribute": "STR",
+          "dc": 17,
+          "fail_penalty": { "STR": 0, "CON": -1, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y17-A2",
+          "description": "You perform a remarkable task requiring precise timing and motion.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 2, "INT": 0, "WIS": 0, "CHA": 0 },
+          "test_attribute": "DEX",
+          "dc": 17,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": -1, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y17-A3",
+          "description": "You solve a community's difficult problem through cleverness.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 0, "INT": 2, "WIS": 0, "CHA": 0 },
+          "test_attribute": "INT",
+          "dc": 18,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": -1, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y17-A4",
+          "description": "You give an inspiring speech that steadies people.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 1, "CHA": 1 },
+          "test_attribute": "CHA",
+          "dc": 16,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": -1 }
+        },
+        {
+          "id": "Y17-A5",
+          "description": "You navigate harsh land alone and return wiser.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 1, "CHA": 0 },
+          "test_attribute": "WIS",
+          "dc": 16,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y17-A6",
+          "description": "You endure a prolonged, harsh ordeal and come out tougher.",
+          "attribute_rewards": { "STR": 0, "CON": 2, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 },
+          "test_attribute": "CON",
+          "dc": 17,
+          "fail_penalty": { "STR": 0, "CON": -1, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y17-A7",
+          "description": "You attempt a risky, high-reward skill that could elevate your standing.",
+          "attribute_rewards": { "STR": 1, "CON": 0, "DEX": 1, "INT": 0, "WIS": 0, "CHA": 0 },
+          "test_attribute": "DEX",
+          "dc": 17,
+          "fail_penalty": { "STR": -1, "CON": 0, "DEX": -1, "INT": 0, "WIS": 0, "CHA": 0 }
+        }
+      ]
+    },
+    {
+      "year": 18,
+      "question": "You complete your transition to adulthood. What final test do you undertake?",
+      "answers_pool": [
+        {
+          "id": "Y18-A1",
+          "description": "You attempt a feat of raw athleticism to prove yourself.",
+          "attribute_rewards": { "STR": 2, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 },
+          "test_attribute": "STR",
+          "dc": 18,
+          "fail_penalty": { "STR": -1, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y18-A2",
+          "description": "You perform expert-level archery or precision craft.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 2, "INT": 0, "WIS": 0, "CHA": 0 },
+          "test_attribute": "DEX",
+          "dc": 18,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": -1, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y18-A3",
+          "description": "You pass a demanding intellectual trial or artisan's exam.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 0, "INT": 2, "WIS": 0, "CHA": 0 },
+          "test_attribute": "INT",
+          "dc": 18,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": -1, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y18-A4",
+          "description": "You convincingly argue in an important dispute, moving hearts.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 2 },
+          "test_attribute": "CHA",
+          "dc": 17,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 0, "CHA": -1 }
+        },
+        {
+          "id": "Y18-A5",
+          "description": "You finish long mentorship training and gain measured wisdom.",
+          "attribute_rewards": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": 2, "CHA": 0 },
+          "test_attribute": "WIS",
+          "dc": 17,
+          "fail_penalty": { "STR": 0, "CON": 0, "DEX": 0, "INT": 0, "WIS": -1, "CHA": 0 }
+        },
+        {
+          "id": "Y18-A6",
+          "description": "You prove endurance through a near-impossible physical trial.",
+          "attribute_rewards": { "STR": 0, "CON": 2, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 },
+          "test_attribute": "CON",
+          "dc": 18,
+          "fail_penalty": { "STR": 0, "CON": -1, "DEX": 0, "INT": 0, "WIS": 0, "CHA": 0 }
+        },
+        {
+          "id": "Y18-A7",
+          "description": "You attempt an integrated rite combining persuasion, cunning, and skill.",
+          "attribute_rewards": { "STR": 1, "CON": 0, "DEX": 1, "INT": 0, "WIS": 1, "CHA": 0 },
+          "test_attribute": "CHA",
+          "dc": 18,
+          "fail_penalty": { "STR": -1, "CON": 0, "DEX": -1, "INT": 0, "WIS": -1, "CHA": 0 }
+        }
+      ]
+    }
+  ]
+}
