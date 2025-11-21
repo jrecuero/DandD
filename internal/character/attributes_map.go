@@ -68,3 +68,36 @@ func AttributeMapToString(m map[Attribute]int) string {
 	}
 	return result
 }
+
+// ColorString returns a colored string representation of the AttributesMap.
+// Colors are based on the ability modifier: green for positive, red for negative, yellow for zero.
+func (am AttributesMap) ColorString() string {
+	const (
+		colorReset  = "\033[0m"
+		colorRed    = "\033[31m"
+		colorGreen  = "\033[32m"
+		colorYellow = "\033[33m"
+	)
+
+	getColor := func(value int) string {
+		modifier := AbilityModifier(value)
+		if modifier > 0 {
+			return colorGreen
+		} else if modifier < 0 {
+			return colorRed
+		}
+		return colorYellow
+	}
+
+	result := ""
+	for _, attr := range []Attribute{Str, Dex, Con, Int, Wis, Cha} {
+		value := am[attr]
+		color := getColor(value)
+		result += fmt.Sprintf("%s%s: %d%s, ", color, GetAttributeShortName(attr), value, colorReset)
+	}
+
+	if len(result) > 2 {
+		result = result[:len(result)-2]
+	}
+	return result
+}
