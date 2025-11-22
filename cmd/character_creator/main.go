@@ -155,6 +155,14 @@ func rollDice(rollData *rollData, attributes character.AttributesMap) {
 }
 
 func main() {
+	var character_name string
+	var character_job string
+	fmt.Printf("Enter character name: ")
+	fmt.Scanf("%s", &character_name)
+	fmt.Printf("Enter character job: ")
+	fmt.Scanf("%s", &character_job)
+	character := character.NewCharacter(character_name, character_job, character.AttributesMap{})
+
 	characterData := loadCharacterData()
 	attributes := loadAttributes(characterData)
 
@@ -166,4 +174,9 @@ func main() {
 		rollData := displayAnswer(anwser, attributes)
 		rollDice(rollData, attributes)
 	}
+	character.Attributes = attributes
+	fmt.Println("Final character:")
+	fmt.Printf("Name: %s\n", character.Name)
+	fmt.Printf("Job: %s\n", character.Job)
+	fmt.Printf("Attributes: %s\n", character.Attributes.ColorString())
 }
