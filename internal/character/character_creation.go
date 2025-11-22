@@ -6,9 +6,9 @@ import (
 	"os"
 )
 
-// CharacterData represents the structure of the character data JSON file.
+// CharacterCreationData represents the structure of the character data JSON file.
 // It includes starting attributes and a list of questions.
-type CharacterData struct {
+type CharacterCreationData struct {
 	StartingAttributes map[string]int `json:"starting_attributes"`
 	Questions          []Question     `json:"questions"`
 }
@@ -36,12 +36,12 @@ type Answer struct {
 // LoadCharacterData reads the character data from a JSON file and unmarshals
 // it into a CharacterData struct.
 // It returns the CharacterData and any error encountered during the process.
-func LoadCharacterData(filename string) (*CharacterData, error) {
+func LoadCharacterData(filename string) (*CharacterCreationData, error) {
 	file, err := os.ReadFile(filename)
 	if err != nil {
 		return nil, fmt.Errorf("failed to read JSON file: %w", err)
 	}
-	var data CharacterData
+	var data CharacterCreationData
 	if err := json.Unmarshal(file, &data); err != nil {
 		return nil, fmt.Errorf("failed to unmarshal JSON data: %w", err)
 	}

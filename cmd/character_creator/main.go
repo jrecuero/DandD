@@ -30,7 +30,7 @@ const (
 // loadCharacterData loads the character data from the JSON file.
 // It panics if there is an error.
 // Returns the loaded CharacterData.
-func loadCharacterData() *character.CharacterData {
+func loadCharacterData() *character.CharacterCreationData {
 	fpath := filepath.Join(data_assets_path, character_creation_file)
 	data, err := character.LoadCharacterData(fpath)
 	if err != nil {
@@ -42,7 +42,7 @@ func loadCharacterData() *character.CharacterData {
 // loadAttributes initializes the AttributesMap
 // with the starting attributes from CharacterData.
 // Returns the initialized AttributesMap.
-func loadAttributes(characterData *character.CharacterData) character.AttributesMap {
+func loadAttributes(characterData *character.CharacterCreationData) character.AttributesMap {
 	attributesMap := character.NewAttributesMap()
 	for attrName, value := range characterData.StartingAttributes {
 		if attr, ok := character.GetAttributeFromShortName(attrName); ok {
