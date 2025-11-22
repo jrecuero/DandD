@@ -8,7 +8,7 @@ import (
 	"github.com/jrecuero/DandD/internal/character"
 )
 
-func TestLoadCharacterData_Success(t *testing.T) {
+func TestLoadCharacterCreationData_Success(t *testing.T) {
 	tmpDir := t.TempDir()
 	jsonPath := filepath.Join(tmpDir, "character.json")
 	jsonContent := `{
@@ -66,14 +66,14 @@ func TestLoadCharacterData_Success(t *testing.T) {
 	}
 }
 
-func TestLoadCharacterData_FileNotFound(t *testing.T) {
+func TestLoadCharacterCreationData_FileNotFound(t *testing.T) {
 	_, err := character.LoadCharacterData("nonexistent.json")
 	if err == nil {
 		t.Error("expected error for missing file, got nil")
 	}
 }
 
-func TestLoadCharacterData_InvalidJSON(t *testing.T) {
+func TestLoadCharacterCreationData_InvalidJSON(t *testing.T) {
 	tmpDir := t.TempDir()
 	jsonPath := filepath.Join(tmpDir, "bad.json")
 	if err := os.WriteFile(jsonPath, []byte("not json"), 0644); err != nil {
