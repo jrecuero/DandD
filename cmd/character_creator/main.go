@@ -6,6 +6,7 @@ import (
 	"math/rand/v2"
 	"os"
 	"path/filepath"
+	"strings"
 	"time"
 
 	"github.com/jrecuero/DandD/internal/character"
@@ -157,10 +158,14 @@ func rollDice(rollData *rollData, attributes character.AttributesMap) {
 func main() {
 	var character_name string
 	var character_job string
+	reader := bufio.NewReader(os.Stdin)
 	fmt.Printf("Enter character name: ")
-	fmt.Scanf("%s", &character_name)
+	character_name, _ = reader.ReadString('\n')
+	character_name = strings.TrimSpace(character_name)
+
 	fmt.Printf("Enter character job: ")
-	fmt.Scanf("%s", &character_job)
+	character_job, _ = reader.ReadString('\n')
+	character_job = strings.TrimSpace(character_job)
 	character := character.NewCharacter(character_name, character_job, character.AttributesMap{})
 
 	characterData := loadCharacterData()
